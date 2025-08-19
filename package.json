@@ -1,0 +1,34 @@
+{
+  "name": "vite-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@uppy/audio": "^2.2.2",
+    "@uppy/aws-s3": "^4.2.3",
+    "@uppy/compressor": "^2.2.1",
+    "@uppy/core": "^4.4.2",
+    "@uppy/dashboard": "^4.3.1",
+    "@uppy/drop-target": "^3.1.1",
+    "@uppy/form": "^4.1.1",
+    "@uppy/golden-retriever": "^4.1.1",
+    "@uppy/image-editor": "^3.3.1",
+    "@uppy/remote-sources": "^2.3.1",
+    "@uppy/screen-capture": "^4.2.1",
+    "@uppy/transloadit": "^4.2.1",
+    "@uppy/tus": "^4.2.2",
+    "@uppy/utils": "^6.2.2",
+    "@uppy/webcam": "^4.1.1",
+    "@uppy/xhr-upload": "^4.3.2"
+  },
+  "devDependencies": {
+    "vite": "^5.2.7",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
